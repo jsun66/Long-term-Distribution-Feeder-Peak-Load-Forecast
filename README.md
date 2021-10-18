@@ -14,7 +14,7 @@ LSTM neural network serves as the foundation of the load forecasting mathematica
 Fig.2. A LSTM unit diagram
 
 LSTM neural network inherits the advantages of RNN in dealing with temporal forecast problems and also solved the vanishing/exploding gradient problem. It is therefore chosen as the ideal mathematical model for long-term peak demand forecast in this research.
-# Results and Analysis
+# Results
 The method was applied to a large urban grid in West Canada to establish both summer and winter long-term peak demand forecasting models for its distribution feeders that are serving various types of loads. In total 289 distribution feeders were selected and their past 14-year annual data were used to create the dataset. In total 1,997 valid three-year records were produced for both summer and winter. In order to reveal the true forecasting capability, for each year, instead of using the actual values, forecasted economic and population features prior to that year were used. The 1,997 records were split into 1,597 records for training and 400 records for testing based on the 80%/20% split ratio. To evaluate the model’s forecast accuracy; the trained model was tested on the 400 test records and compared to the true peak demand values. Mean Absolute Percentage Error (MAPE) is chosen as the error metrics.
 
 1. MAPE in Summer and Winter
